@@ -1,4 +1,5 @@
 <?php
+//internationalisation du site web
   /*
     // Tests pour accéder aux paramètres de requête HTTP envoyés dans l'URL
     $langueChoisie = $_GET['langue'];
