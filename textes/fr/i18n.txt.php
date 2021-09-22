@@ -1,4 +1,5 @@
 <?php
+$nomLangue = "francais";
 // Textes statiques du site du restaurant Leila
 
 // meta information sur la page
