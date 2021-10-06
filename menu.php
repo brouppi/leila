@@ -9,6 +9,8 @@
 
   $citationAleatoire = citationAleatoire($page, $langueChoisie);
 
+
+
   $menuTexte = file_get_contents("data/menu-$langueChoisie.json");
 
   $menuTableau = json_decode($menuTexte, true);
@@ -28,7 +30,7 @@
           <ul>
             <?php foreach($platsSection as $plat){ ?>
             <li>
-              <span><?= $plat["nom"]; ?><br><i><?= $plat["des"]; ?></i></span>
+              <span><?= $plat["nom"]; ?><?php if($plat[""]){ ?><br><i><?= $plat["des"]; ?></i><?php } ?></span>
               <span class="prix"><i class="article-menu-portion">(<?= $mnu_portion; ?> <?= $plat["portion"]; ?>)</i><?= $plat["prix"]; ?></span>
             </li>
             <?php } ?>
