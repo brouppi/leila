@@ -1,0 +1,26 @@
+{
+    "fr":[
+        {
+            "texte":"Le vin est innocent, l'ivrogne seul est coupable." ,
+            "auteur": "Proverbe Russe"
+        },
+        {
+            "texte":"Trop ou trop peu de vin interdit la vérité." ,
+            "auteur": "Blaise Pascal"
+        },
+        {
+            "texte":"Plus il y a de marches, meilleure est la cave." ,
+            "auteur": "Proverbe bourguignon"
+        }
+    ],
+    "en":[
+        {
+            "texte":"Either give me more wine or leave me alone." ,
+            "auteur": "Rumi"
+        },
+        {
+            "texte":"I cook with wine. Sometimes I even add it to the food." ,
+            "auteur": "W. C. Fields"
+        }
+    ]
+}

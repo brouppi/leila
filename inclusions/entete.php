@@ -1,5 +1,8 @@
 <?php
-$nomLangues = [];
+$nomLangues = [
+  "fr" => 'Francais',
+  "en" => 'English'
+];
 $contenuDossierTextes = scandir('textes');
 $langueDisponibles = [];
 
@@ -80,7 +83,7 @@ foreach($contenuDossierTextes as $nomDossier){
 
         <nav class="i18n">
           <?php foreach($langueDisponibles as $codeLangue) {?>
-          <a href="?langue=<?= $codeLangue; ?>" class="<?php if($langueChoisie == $codeLangue){echo 'actif'; } ?>" title="Français"><?= $codeLangue; ?></a>
+          <a href="?langue=<?= $codeLangue; ?>" class="<?php if($langueChoisie == $codeLangue){echo 'actif'; } ?>" title="<?= $nomLangues; ?>"><?= $codeLangue; ?></a>
           
           <?php } ?>
         </nav>

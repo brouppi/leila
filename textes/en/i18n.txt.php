@@ -46,9 +46,7 @@ $acc_introP1 = "This cozy house located a stone's throw from the Montreal Scienc
 $acc_introP2 = "One of the oldest buildings in the city on ... rue Neuve, you can't make it up! The chef, passionate about her profession and wine, plays the « bistronomy » card to the full, focusing on high quality market products. A delight ... like the summer terrace";
 
 // Menu
-/* 
-    Le texte de cette section du site représente du *contenu dynamique* (et non pas des textes statiques), et sera géré plus tard dans le cours (une exception pour les 2 mots "pour" et "personnes" utilisés dans la description des plats, que je voudrais discuter avec vous en classe).
-*/
+$mnu_portion ="portion :";
 
 // Carte des vins
 $vin_frmEtiquette = "Search: ";

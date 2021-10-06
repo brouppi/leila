@@ -48,9 +48,7 @@ $acc_introP1 = "Cette maison feutrée située à deux pas du Centre des sciences
 $acc_introP2 = "Un immeuble parmi les plus anciens de la ville dans... la rue Neuve, cela ne s'invente pas ! La cheffe, passionnée par son métier et le vin, joue à fond la carte de la « bistronomie », en misant sur des produits du marché de très belle qualité. Un délice... comme la terrasse estivale";
 
 // Menu
-/* 
-    Le texte de cette section du site représente du *contenu dynamique* (et non pas des textes statiques), et sera géré plus tard dans le cours (une exception pour les 2 mots "pour" et "personnes" utilisés dans la description des plats, que je voudrais discuter avec vous en classe).
-*/
+$mnu_portion ="portion :";
 
 // Carte des vins
 $vin_frmEtiquette = "Recherche : ";

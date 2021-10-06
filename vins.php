@@ -4,13 +4,19 @@
 
   // Inclure le haut de page commun ici
   include('inclusions/entete.php');
+
+  include('lib/citations.lib.php');
+
+  $citationAleatoire = citationAleatoire($page, $langueChoisie);
+
+  
 ?>
     <div class="contenu-principal">
       <div class="citation">
         <img src="images/vins-citation.png" alt="">
         <blockquote>
-          Le vin est la partie intellectuelle d’un repas, les viandes et les légumes n’en sont que la partie matérielle.
-          <cite>- Alexandre Dumas</cite>
+        <?= $citationAleatoire['texte']; ?>
+          <cite>- <?= $citationAleatoire['auteur']; ?></cite>
         </blockquote>
       </div>
       <form class="frm-recherche">
